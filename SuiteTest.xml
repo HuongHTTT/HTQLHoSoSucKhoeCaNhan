@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite1" thread-count="1">
+
+	<test name="ThemDLNKTest">
+		<classes>
+			<class name="themdulieu.NhanKhauThemTest" />
+		</classes>
+	</test>
+	
+	<test name="ThemDLHKTest">
+		<classes>
+			<class name="themdulieu.HoKhauThemTest" />
+		</classes>
+	</test>
+	
+	<test name="QLHoGDTest1">
+		<classes>
+			<class name="quanlyhogiadinh.NhanKhauThemMoiTest" />
+		</classes>
+	</test>
+
+	<test name="QLHoGDTest2">
+		<classes>
+			<class name="quanlyhogiadinh.HoKhauThemMoiTest" />
+		</classes>
+	</test>
+
+	<test name="QLHoGDTest3">
+		<classes>
+			<class name="quanlyhogiadinh.NKThemVaoHK1Test" />
+		</classes>
+	</test>
+	
+	<test name="QLHoGDTest4">
+		<classes>
+			<class name="quanlyhogiadinh.NKThemVaoHK2Test" />
+		</classes>
+	</test>
+
+	<test name="QLHSSKTest1">
+		<classes>
+			<class name="quanlyhososuckhoe.HSSucKhoeTaoLapTest" />
+		</classes>
+	</test>
+
+	<test name="QLHSSKTest2">
+		<classes>
+			<class name="quanlyhososuckhoe.LichSuKCBTest" />
+		</classes>
+	</test>
+
+	<test name="QLHSSKTest3">
+		<classes>
+			<class name="quanlyhososuckhoe.TiemChungNgoaiCTTest" />
+		</classes>
+	</test> 
+</suite>

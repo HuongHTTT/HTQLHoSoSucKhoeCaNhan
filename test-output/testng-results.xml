@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109571" started-at="2017-08-18T09:36:43Z" finished-at="2017-08-18T09:38:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109571" started-at="2017-08-18T09:36:43Z" finished-at="2017-08-18T09:38:32Z">
+      <class name="themdulieu.NhanKhauThemTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:themdulieu.NhanKhauThemTest@204f30ec]" name="beforeClass" is-config="true" duration-ms="9979" started-at="2017-08-18T16:36:43Z" finished-at="2017-08-18T16:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="them01()[pri:0, instance:themdulieu.NhanKhauThemTest@204f30ec]" name="them01" duration-ms="99179" started-at="2017-08-18T16:36:53Z" finished-at="2017-08-18T16:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- them01 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:themdulieu.NhanKhauThemTest@204f30ec]" name="close" is-config="true" duration-ms="395" started-at="2017-08-18T16:38:32Z" finished-at="2017-08-18T16:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- themdulieu.NhanKhauThemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

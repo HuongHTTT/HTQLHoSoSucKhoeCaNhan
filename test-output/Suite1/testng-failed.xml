@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="QLHoGDTest1(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NhanKhauThemMoiTest">
+        <methods>
+          <include name="kiemTraChucNangNutXemThongTinNK"/>
+          <include name="kiemTraThongBaoKhiNhapThongTinBoMeLaChinhNhanKhauDangXet"/>
+          <include name="kiemTraThongBaoTreEmDuoi1TuoiKhongNhapQHVoiNgGiamHo"/>
+          <include name="kiemTraThongBaoKhiBoTrongTruongTonGiao"/>
+          <include name="kiemTraChucNangNutQuayLaiMH2"/>
+          <include name="kiemTraNutLuuMH2KhiNhapDayDuDuLieu"/>
+          <include name="beforeClass"/>
+          <include name="kiemTraClickNutSuaThongTinNhanKhauSangMHThemMoiHoacSuaThongTinCaNhan"/>
+          <include name="kiemTraMauKhungBoTrongDanTocQuocTichTonGiao"/>
+          <include name="themKhiNhapThieuThongTinBatBuoc"/>
+          <include name="kiemTraNgaySinhBang1900DuocChapNhan"/>
+          <include name="kiemTraChucNangNutDongMH2"/>
+          <include name="kiemTraClickNutXoaThongTinNhanKhauSangMHXacNhanHanhDongXoa"/>
+          <include name="kiemTraThongBaoKhiBoTrongTruongDanToc"/>
+          <include name="kiemTraThongBaoKhiBoTrongTruongQuocTich"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NhanKhauThemMoiTest -->
+    </classes>
+  </test> <!-- QLHoGDTest1(failed) -->
+  <test name="QLHoGDTest3(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NKThemVaoHK1Test">
+        <methods>
+          <include name="kiemTraThongBaoKhiNKDangLaChuHoCuaHoKhac"/>
+          <include name="kiemTraThongBaoKhiClickNutSuaNKKhongLaChuHo"/>
+          <include name="kiemTraThongBaoKhiKhongChonQHVoiChuHo"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NKThemVaoHK1Test -->
+    </classes>
+  </test> <!-- QLHoGDTest3(failed) -->
+  <test name="QLHoGDTest4(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NKThemVaoHK2Test">
+        <methods>
+          <include name="kiemTraThongBaoKhiChuaChonQHVoiChuHo"/>
+          <include name="themNKvaoHKKhiNKKhongLaChuHo"/>
+          <include name="beforeClass"/>
+          <include name="kiemTraNutChonHoKhauKhongCHoCLickKhiNKDangLaChuHo"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NKThemVaoHK2Test -->
+    </classes>
+  </test> <!-- QLHoGDTest4(failed) -->
+  <test name="QLHSSKTest1(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.HSSucKhoeTaoLapTest">
+        <methods>
+          <include name="kiemTraThongBaoKhiNgayHenTaiKhamNhoHonNgayKham"/>
+          <include name="kiemTraNutXoaSauKhiDaLapHoSo"/>
+          <include name="lapHSSucKhoeVoiThongTinHopLe"/>
+          <include name="kiemTraThongBaoClickNutLuuKhiChuaThayDoiThongTin"/>
+          <include name="kiemTraNutDongMHTaoLapHoSo"/>
+          <include name="beforeClass"/>
+          <include name="kiemTraMauKhungKhiBoTrongTruongBatBuoc"/>
+          <include name="kiemTraThongBaoKhiNgayKhamLonHonNgayHienTai"/>
+          <include name="kiemTraNutLuuKhongDuocClickKhiThieuTruongBatBuoc"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.HSSucKhoeTaoLapTest -->
+    </classes>
+  </test> <!-- QLHSSKTest1(failed) -->
+  <test name="QLHSSKTest2(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.LichSuKCBTest">
+        <methods>
+          <include name="kiemTraThongBaoKhiNhapTenDichVuKhongNhapKetQuaMHCapNhatThongTinKCB"/>
+          <include name="themKhiNgayTaiKhamNhoHonNgayKham"/>
+          <include name="kiemTraClickNutSuaSangMHCapNhatThongTinKCB"/>
+          <include name="kiemTraTaoDongMoiKhiNhapDayDuTenDichVuVaKetQua"/>
+          <include name="beforeClass"/>
+          <include name="kiemTraClickNutLuuKhongChoPhepKhiThieuThongTinBatBuoc"/>
+          <include name="kiemTraThongBaoKhiNhapSoLuongKiTuKhacSo"/>
+          <include name="kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang"/>
+          <include name="kiemTraThongBaoKhiNhapSoLuongKhongNhapTenThuocgMHCapNhatThongTinKCB"/>
+          <include name="themVoiDieuKienHopLe"/>
+          <include name="kiemTraMauKhungKhiNhapSaiThongTinBatBuoc"/>
+          <include name="kiemTraClickNutXoaThongTinKhamChuaBenhSangMHXacNhanHanhDongXoa"/>
+          <include name="kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang"/>
+          <include name="kiemTraThongBaoKhiNhapTenThuocKhongNhapSoLuongMHCapNhatThongTinKCB"/>
+          <include name="kiemTraThongBaoKhiNgayKhamKhongĐungDinhDang"/>
+          <include name="themKhiNgayKhamNhoHonNgayBatDau"/>
+          <include name="themKhiNgayBatDaulonHonNgayKetThuc"/>
+          <include name="kiemTraThongBaoKhiNhapKetQuaKhongNhapTenDichVuMHCapNhatThongTinKCB"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.LichSuKCBTest -->
+    </classes>
+  </test> <!-- QLHSSKTest2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

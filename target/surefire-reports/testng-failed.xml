@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test name="QLHSSKTest2(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.LichSuKCBTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang"/>
+          <include name="kiemTraMauKhungKhiNhapSaiThongTinBatBuoc"/>
+          <include name="close"/>
+          <include name="kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.LichSuKCBTest -->
+    </classes>
+  </test> <!-- QLHSSKTest2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

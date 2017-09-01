@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="731.691" tests="82" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\DC02-OS"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="CATALINA_HOME" value="D:\Setup\apache-tomcat-7.0.79"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="VITM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_OPTS" value=" &quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="JOB_NAME" value="HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="COMPUTERNAME" value="ICT-OS-HUONGHTT"/>
+    <property name="EXECUTABLE" value="D:\Setup\apache-tomcat-7.0.79\bin\catalina.bat"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="ict-os-36"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ict-os-36\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/HeThongHoSoQuanLySucKhoeCaNhan/59/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-HeThongHoSoQuanLySucKhoeCaNhan-59"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\Java_Huong\apache-maven-3.5.0 D:\Setup\apache-tomcat-7.0.79\webapps\jenkins\WEB-INF\lib\remoting-3.7.jar C:\Users\ict-os-36\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\ict-os-36\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 49712"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="1766db1a6fb45220"/>
+    <property name="=D:" value="D:\Setup\apache-tomcat-7.0.79\bin"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Java_Huong\apache-maven-3.5.0\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Mozilla Firefox;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Java_Huong\apache-maven-3.5.0\bin;C:\Users\ict-os-36\AppData\Local\Programs\Git\cmd"/>
+    <property name="java.io.tmpdir" value="C:\Users\ICT-OS~1\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\ict-os-36\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="CATALINA_TMPDIR" value="D:\Setup\apache-tomcat-7.0.79\temp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/HeThongHoSoQuanLySucKhoeCaNhan/59/"/>
+    <property name="JAVA_ENDORSED_DIRS" value="D:\Setup\apache-tomcat-7.0.79\endorsed"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="D:\Java_Huong\apache-maven-3.5.0"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#59"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="D:\Setup\apache-tomcat-7.0.79"/>
+    <property name="HUDSON_SERVER_COOKIE" value="1766db1a6fb45220"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_101"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_101\bin\java.exe&quot;"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_101\bin\java.exe&quot;"/>
+    <property name="MAVEN_HOME" value="D:\Java_Huong\apache-maven-3.5.0"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ict-os-36\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;D:\Setup\apache-tomcat-7.0.79\conf\logging.properties&quot;"/>
+    <property name="HOMEPATH" value="\Users\ict-os-36"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="59"/>
+    <property name="maven3.interceptor" value="C:\Users\ict-os-36\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Java_Huong\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_101/bin;C:\Program Files\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Java_Huong\apache-maven-3.5.0\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Mozilla Firefox;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Java_Huong\apache-maven-3.5.0\bin;C:\Users\ict-os-36\AppData\Local\Programs\Git\cmd;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="POM_ARTIFACTID" value="HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JSSE_OPTS" value="&quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_101\bin\jdb.exe&quot;"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/HeThongHoSoQuanLySucKhoeCaNhan/"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/HeThongHoSoQuanLySucKhoeCaNhan/59/display/redirect"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="JENKINS_HOME" value="C:\Users\ict-os-36\.jenkins"/>
+    <property name="BUILD_ID" value="59"/>
+    <property name="TEMP" value="C:\Users\ICT-OS~1\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ict-os-36\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="D:\Java_Huong\apache-maven-3.5.0/bin"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="D:\Setup\apache-tomcat-7.0.79\bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_101"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\ict-os-36"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/HeThongHoSoQuanLySucKhoeCaNhan/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\ict-os-36"/>
+    <property name="USERNAME" value="ict-os-36"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="vitm.com"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="D:\Dev\DemoJava\HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="maven.conf" value="D:\Java_Huong\apache-maven-3.5.0\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\ICT-OS~1\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.class.path" value="C:\Users\ict-os-36\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;D:\Java_Huong\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;D:\Java_Huong\apache-maven-3.5.0/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="D:\Dev\DemoJava\ProjectHospital"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_101/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="D:\Java_Huong\apache-maven-3.5.0"/>
+    <property name="JOB_BASE_NAME" value="HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="HeThongHoSoQuanLySucKhoeCaNhan"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="them01" classname="themdulieu.NhanKhauThemTest" time="101.495"/>
+  <testcase name="them01" classname="themdulieu.HoKhauThemTest" time="13.055"/>
+  <testcase name="them02" classname="themdulieu.HoKhauThemTest" time="17.802"/>
+  <testcase name="themKhiNhapThieuThongTinBatBuoc" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="5.847"/>
+  <testcase name="kiemTraMauKhiSaiTruongBatBuoc" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="2.132"/>
+  <testcase name="kiemTraMauKhiSaiTruongKhongBatBuoc" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.886"/>
+  <testcase name="kiemTraChucNangNutDongOBuoc1" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.676"/>
+  <testcase name="kiemTraThongBaoNhapNgSinhNhoHon1900" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="3.425"/>
+  <testcase name="kiemTraThongBaoNhapNgSinhLonHonHienTai" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="6.089"/>
+  <testcase name="kiemTraNgaySinhBang1900DuocChapNhan" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="15.489"/>
+  <testcase name="kiemTraThongBaoTreEmDuoi1TuoiKhongCoNgGiamHo" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="6.674"/>
+  <testcase name="kiemTraThongBaoTreEmDuoi1TuoiKhongNhapQHVoiNgGiamHo" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="5.991"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongTruongDanToc" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="13.298"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongTruongQuocTich" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.331"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongTruongTonGiao" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.361"/>
+  <testcase name="kiemTraMauKhungBoTrongDanTocQuocTichTonGiao" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.105"/>
+  <testcase name="kiemTraNutLuuMH2KhiNhapThieuThongTin" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="0.036"/>
+  <testcase name="kiemTraChucNangNutQuayLaiMH2" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="1.331"/>
+  <testcase name="kiemTraChucNangNutDongMH2" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="9.532"/>
+  <testcase name="kiemTraNutLuuMH2KhiNhapDayDuDuLieu" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="29.665"/>
+  <testcase name="kiemTraChucNangNutXemThongTinNK" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="1.455"/>
+  <testcase name="kiemTraClickNutSuaThongTinNhanKhauSangMHThemMoiHoacSuaThongTinCaNhan" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="1.672"/>
+  <testcase name="kiemTraThongBaoKhiNhapThongTinBoMeLaChinhNhanKhauDangXet" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="9.169"/>
+  <testcase name="kiemTraClickNutXoaThongTinNhanKhauSangMHXacNhanHanhDongXoa" classname="quanlyhogiadinh.NhanKhauThemMoiTest" time="1.019"/>
+  <testcase name="kiemTraChucNangNutDong" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="3.58"/>
+  <testcase name="kiemTraNutTaoMoiHoKhauKhongChoClick" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="1.1"/>
+  <testcase name="kiemTraThongBaoKhiClickNutLuuKhiChuaChonChuHo" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="0.346"/>
+  <testcase name="kiemTraThongBaoKhiChonNKLaChuHoCuaHoKhac" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="9.995"/>
+  <testcase name="kiemTraThongBaoKhiChonNKDangCoQHVoiHoKhacLamChuHo" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="3.376"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongDiaChiCuaChuHo" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="9.282"/>
+  <testcase name="themHKVoiNKChuaLamChuHo" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="8.184"/>
+  <testcase name="kiemTraClickNutTaoMoiHoKhauSangMHThemMoiHoKhau" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="3.092"/>
+  <testcase name="KiemTraClickNutXemChiTietVaoManHinhXemChiTiet" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="1.985"/>
+  <testcase name="KiemTraThongBaoKhiClickNutXoaHoKhau" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="1.834"/>
+  <testcase name="KiemTraClickNutSuaHoKhauVaoMHSuaHoKhau" classname="quanlyhogiadinh.HoKhauThemMoiTest" time="2.884"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongThongTin" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="4.423"/>
+  <testcase name="kiemTraThongBaoKhiBoTrongNhanKhau" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="5.762"/>
+  <testcase name="kiemTraMauKhungKhiBoTrongQHVoiChuHo" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="6.228"/>
+  <testcase name="kiemTraThongBaoKhiKhongChonQHVoiChuHo" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="3.635"/>
+  <testcase name="kiemTraThongBaoKhiNKDangLaChuHoCuaHoKhac" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="10.786"/>
+  <testcase name="themNKVaoHKKhiDangLaThanhVienCuaHoKhac" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="11.813"/>
+  <testcase name="themNKVaoHKKhiChuaLaThanhVienCuaHoKhac" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="26.89"/>
+  <testcase name="kiemTraThongBaoKhiNKDaTonTaiTrongHK" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="10.872"/>
+  <testcase name="kiemTraKhiClickNutSuaNKDangLaChuHoKhongChoPhepSua" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="0.644"/>
+  <testcase name="kiemTraKhiClickNutXoaNKDangLaChuHoKhongChoPhepXoa" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="0.597"/>
+  <testcase name="kiemTraThongBaoKhiClickNutSuaNKKhongLaChuHo" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="0.784"/>
+  <testcase name="kiemTraThongBaoKhiClickNutXoaNKKhongLaChuHo" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="6.591"/>
+  <testcase name="kiemTraThongBaoClickNutLuuKhiDuLieuKhongDoi" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="3.809"/>
+  <testcase name="kiemTraClickNutDongMHSuaSangMHQLyHK" classname="quanlyhogiadinh.NKThemVaoHK1Test" time="6.537"/>
+  <testcase name="kiemTraNutChonHoKhauKhongCHoCLickKhiNKDangLaChuHo" classname="quanlyhogiadinh.NKThemVaoHK2Test" time="6.217"/>
+  <testcase name="kiemTraThongBaoKhiChuaChonQHVoiChuHo" classname="quanlyhogiadinh.NKThemVaoHK2Test" time="18.291"/>
+  <testcase name="themNKvaoHKKhiNKKhongLaChuHo" classname="quanlyhogiadinh.NKThemVaoHK2Test" time="16.467"/>
+  <testcase name="kiemTraThongBaoClickNutLuuKhiChuaThayDoiThongTin" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="4.216"/>
+  <testcase name="kiemTraThongBaoKhiNgayKhamLonHonNgayHienTai" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="5.993"/>
+  <testcase name="kiemTraThongBaoKhiNgayHenTaiKhamNhoHonNgayKham" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="6.537"/>
+  <testcase name="kiemTraMauKhungKhiBoTrongTruongBatBuoc" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="6.012"/>
+  <testcase name="kiemTraNutLuuKhongDuocClickKhiThieuTruongBatBuoc" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="0.084"/>
+  <testcase name="lapHSSucKhoeVoiThongTinHopLe" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="28.54"/>
+  <testcase name="kiemTraNutXoaSauKhiDaLapHoSo" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="3.706"/>
+  <testcase name="kiemTraNutDongMHTaoLapHoSo" classname="quanlyhososuckhoe.HSSucKhoeTaoLapTest" time="0.658"/>
+  <testcase name="kiemTraClickNutLuuKhongChoPhepKhiThieuThongTinBatBuoc" classname="quanlyhososuckhoe.LichSuKCBTest" time="5.216"/>
+  <testcase name="kiemTraMauKhungKhiNhapSaiThongTinBatBuoc" classname="quanlyhososuckhoe.LichSuKCBTest" time="1.297"/>
+  <testcase name="kiemTraThongBaoKhiNgayKhamKhongĐungDinhDang" classname="quanlyhososuckhoe.LichSuKCBTest" time="0.025"/>
+  <testcase name="kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang" classname="quanlyhososuckhoe.LichSuKCBTest" time="0.019"/>
+  <testcase name="kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang" classname="quanlyhososuckhoe.LichSuKCBTest" time="0.018"/>
+  <testcase name="themKhiNgayKhamNhoHonNgayBatDau" classname="quanlyhososuckhoe.LichSuKCBTest" time="1.068"/>
+  <testcase name="themKhiNgayBatDaulonHonNgayKetThuc" classname="quanlyhososuckhoe.LichSuKCBTest" time="6.607"/>
+  <testcase name="themKhiNgayTaiKhamNhoHonNgayKham" classname="quanlyhososuckhoe.LichSuKCBTest" time="13.237"/>
+  <testcase name="themVoiDieuKienHopLe" classname="quanlyhososuckhoe.LichSuKCBTest" time="18.745"/>
+  <testcase name="kiemTraClickNutSuaSangMHCapNhatThongTinKCB" classname="quanlyhososuckhoe.LichSuKCBTest" time="0.932"/>
+  <testcase name="kiemTraThongBaoKhiNhapTenDichVuKhongNhapKetQuaMHCapNhatThongTinKCB" classname="quanlyhososuckhoe.LichSuKCBTest" time="5.53"/>
+  <testcase name="kiemTraThongBaoKhiNhapKetQuaKhongNhapTenDichVuMHCapNhatThongTinKCB" classname="quanlyhososuckhoe.LichSuKCBTest" time="6.472"/>
+  <testcase name="kiemTraTaoDongMoiKhiNhapDayDuTenDichVuVaKetQua" classname="quanlyhososuckhoe.LichSuKCBTest" time="6.446"/>
+  <testcase name="kiemTraThongBaoKhiNhapTenThuocKhongNhapSoLuongMHCapNhatThongTinKCB" classname="quanlyhososuckhoe.LichSuKCBTest" time="7.497"/>
+  <testcase name="kiemTraThongBaoKhiNhapSoLuongKiTuKhacSo" classname="quanlyhososuckhoe.LichSuKCBTest" time="6.428"/>
+  <testcase name="kiemTraThongBaoKhiNhapSoLuongKhongNhapTenThuocgMHCapNhatThongTinKCB" classname="quanlyhososuckhoe.LichSuKCBTest" time="0.362"/>
+  <testcase name="kiemTraClickNutXoaThongTinKhamChuaBenhSangMHXacNhanHanhDongXoa" classname="quanlyhososuckhoe.LichSuKCBTest" time="7.556"/>
+  <testcase name="kiemTraNutLuuKhongChoPhepKhiBoTrongTruongBatBuoc" classname="quanlyhososuckhoe.TiemChungNgoaiCTTest" time="8.138"/>
+  <testcase name="kiemTraThongBaoKhiNgayHenTiemNhoHonNgayChungNgua" classname="quanlyhososuckhoe.TiemChungNgoaiCTTest" time="3.827"/>
+  <testcase name="kiemTraMauKhiCacTruowngBatBuocKhongHopLe" classname="quanlyhososuckhoe.TiemChungNgoaiCTTest" time="6.097"/>
+  <testcase name="themKhiNhapDayDuThongTin" classname="quanlyhososuckhoe.TiemChungNgoaiCTTest" time="16.735"/>
+  <testcase name="kiemTraThongBaoKhiNhapThongTinTruocDoDaCo" classname="quanlyhososuckhoe.TiemChungNgoaiCTTest" time="17.018"/>
+</testsuite>

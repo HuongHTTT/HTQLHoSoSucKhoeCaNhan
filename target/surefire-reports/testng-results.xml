@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="82" passed="82">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="730889" started-at="2017-08-28T01:35:49Z" finished-at="2017-08-28T01:47:59Z">
+    <groups>
+    </groups>
+    <test name="ThemDLNKTest" duration-ms="114900" started-at="2017-08-28T01:35:49Z" finished-at="2017-08-28T01:37:43Z">
+      <class name="themdulieu.NhanKhauThemTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:themdulieu.NhanKhauThemTest@6fb554cc]" name="beforeClass" is-config="true" duration-ms="13364" started-at="2017-08-28T08:35:49Z" finished-at="2017-08-28T08:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="them01()[pri:0, instance:themdulieu.NhanKhauThemTest@6fb554cc]" name="them01" duration-ms="101499" started-at="2017-08-28T08:36:02Z" finished-at="2017-08-28T08:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- them01 -->
+      </class> <!-- themdulieu.NhanKhauThemTest -->
+    </test> <!-- ThemDLNKTest -->
+    <test name="ThemDLHKTest" duration-ms="39711" started-at="2017-08-28T01:37:43Z" finished-at="2017-08-28T01:38:23Z">
+      <class name="themdulieu.HoKhauThemTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:themdulieu.HoKhauThemTest@3551a94]" name="beforeClass" is-config="true" duration-ms="8680" started-at="2017-08-28T08:37:43Z" finished-at="2017-08-28T08:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="them01()[pri:0, instance:themdulieu.HoKhauThemTest@3551a94]" name="them01" duration-ms="13065" started-at="2017-08-28T08:37:52Z" finished-at="2017-08-28T08:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- them01 -->
+        <test-method status="PASS" signature="them02()[pri:1, instance:themdulieu.HoKhauThemTest@3551a94]" name="them02" duration-ms="17803" started-at="2017-08-28T08:38:05Z" finished-at="2017-08-28T08:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- them02 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:themdulieu.HoKhauThemTest@3551a94]" name="close" is-config="true" duration-ms="162" started-at="2017-08-28T08:38:23Z" finished-at="2017-08-28T08:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- themdulieu.HoKhauThemTest -->
+    </test> <!-- ThemDLHKTest -->
+    <test name="QLHoGDTest1" duration-ms="124419" started-at="2017-08-28T01:38:23Z" finished-at="2017-08-28T01:40:28Z">
+      <class name="quanlyhogiadinh.NhanKhauThemMoiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="beforeClass" is-config="true" duration-ms="8912" started-at="2017-08-28T08:38:23Z" finished-at="2017-08-28T08:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="themKhiNhapThieuThongTinBatBuoc()[pri:0, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="themKhiNhapThieuThongTinBatBuoc" duration-ms="5851" started-at="2017-08-28T08:38:32Z" finished-at="2017-08-28T08:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themKhiNhapThieuThongTinBatBuoc -->
+        <test-method status="PASS" signature="kiemTraMauKhiSaiTruongBatBuoc()[pri:1, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraMauKhiSaiTruongBatBuoc" duration-ms="2132" started-at="2017-08-28T08:38:38Z" finished-at="2017-08-28T08:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhiSaiTruongBatBuoc -->
+        <test-method status="PASS" signature="kiemTraMauKhiSaiTruongKhongBatBuoc()[pri:2, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraMauKhiSaiTruongKhongBatBuoc" duration-ms="887" started-at="2017-08-28T08:38:40Z" finished-at="2017-08-28T08:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhiSaiTruongKhongBatBuoc -->
+        <test-method status="PASS" signature="kiemTraChucNangNutDongOBuoc1()[pri:3, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraChucNangNutDongOBuoc1" duration-ms="676" started-at="2017-08-28T08:38:41Z" finished-at="2017-08-28T08:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraChucNangNutDongOBuoc1 -->
+        <test-method status="PASS" signature="kiemTraThongBaoNhapNgSinhNhoHon1900()[pri:4, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoNhapNgSinhNhoHon1900" duration-ms="3424" started-at="2017-08-28T08:38:42Z" finished-at="2017-08-28T08:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoNhapNgSinhNhoHon1900 -->
+        <test-method status="PASS" signature="kiemTraThongBaoNhapNgSinhLonHonHienTai()[pri:5, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoNhapNgSinhLonHonHienTai" duration-ms="6088" started-at="2017-08-28T08:38:45Z" finished-at="2017-08-28T08:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoNhapNgSinhLonHonHienTai -->
+        <test-method status="PASS" signature="kiemTraNgaySinhBang1900DuocChapNhan()[pri:6, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraNgaySinhBang1900DuocChapNhan" duration-ms="15490" started-at="2017-08-28T08:38:51Z" finished-at="2017-08-28T08:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNgaySinhBang1900DuocChapNhan -->
+        <test-method status="PASS" signature="kiemTraThongBaoTreEmDuoi1TuoiKhongCoNgGiamHo()[pri:7, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoTreEmDuoi1TuoiKhongCoNgGiamHo" duration-ms="6674" started-at="2017-08-28T08:39:07Z" finished-at="2017-08-28T08:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoTreEmDuoi1TuoiKhongCoNgGiamHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoTreEmDuoi1TuoiKhongNhapQHVoiNgGiamHo()[pri:8, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoTreEmDuoi1TuoiKhongNhapQHVoiNgGiamHo" duration-ms="5984" started-at="2017-08-28T08:39:13Z" finished-at="2017-08-28T08:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoTreEmDuoi1TuoiKhongNhapQHVoiNgGiamHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongTruongDanToc()[pri:9, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoKhiBoTrongTruongDanToc" duration-ms="13306" started-at="2017-08-28T08:39:19Z" finished-at="2017-08-28T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongTruongDanToc -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongTruongQuocTich()[pri:10, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoKhiBoTrongTruongQuocTich" duration-ms="330" started-at="2017-08-28T08:39:33Z" finished-at="2017-08-28T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongTruongQuocTich -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongTruongTonGiao()[pri:11, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoKhiBoTrongTruongTonGiao" duration-ms="354" started-at="2017-08-28T08:39:33Z" finished-at="2017-08-28T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongTruongTonGiao -->
+        <test-method status="PASS" signature="kiemTraMauKhungBoTrongDanTocQuocTichTonGiao()[pri:12, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraMauKhungBoTrongDanTocQuocTichTonGiao" duration-ms="111" started-at="2017-08-28T08:39:33Z" finished-at="2017-08-28T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhungBoTrongDanTocQuocTichTonGiao -->
+        <test-method status="PASS" signature="kiemTraNutLuuMH2KhiNhapThieuThongTin()[pri:13, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraNutLuuMH2KhiNhapThieuThongTin" duration-ms="36" started-at="2017-08-28T08:39:33Z" finished-at="2017-08-28T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutLuuMH2KhiNhapThieuThongTin -->
+        <test-method status="PASS" signature="kiemTraChucNangNutQuayLaiMH2()[pri:14, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraChucNangNutQuayLaiMH2" duration-ms="1330" started-at="2017-08-28T08:39:33Z" finished-at="2017-08-28T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraChucNangNutQuayLaiMH2 -->
+        <test-method status="PASS" signature="kiemTraChucNangNutDongMH2()[pri:15, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraChucNangNutDongMH2" duration-ms="9531" started-at="2017-08-28T08:39:35Z" finished-at="2017-08-28T08:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraChucNangNutDongMH2 -->
+        <test-method status="PASS" signature="kiemTraNutLuuMH2KhiNhapDayDuDuLieu()[pri:16, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraNutLuuMH2KhiNhapDayDuDuLieu" duration-ms="29663" started-at="2017-08-28T08:39:44Z" finished-at="2017-08-28T08:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutLuuMH2KhiNhapDayDuDuLieu -->
+        <test-method status="PASS" signature="kiemTraChucNangNutXemThongTinNK()[pri:17, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraChucNangNutXemThongTinNK" duration-ms="1457" started-at="2017-08-28T08:40:14Z" finished-at="2017-08-28T08:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraChucNangNutXemThongTinNK -->
+        <test-method status="PASS" signature="kiemTraClickNutSuaThongTinNhanKhauSangMHThemMoiHoacSuaThongTinCaNhan()[pri:18, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraClickNutSuaThongTinNhanKhauSangMHThemMoiHoacSuaThongTinCaNhan" duration-ms="1669" started-at="2017-08-28T08:40:15Z" finished-at="2017-08-28T08:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutSuaThongTinNhanKhauSangMHThemMoiHoacSuaThongTinCaNhan -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapThongTinBoMeLaChinhNhanKhauDangXet()[pri:19, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraThongBaoKhiNhapThongTinBoMeLaChinhNhanKhauDangXet" duration-ms="9172" started-at="2017-08-28T08:40:17Z" finished-at="2017-08-28T08:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapThongTinBoMeLaChinhNhanKhauDangXet -->
+        <test-method status="PASS" signature="kiemTraClickNutXoaThongTinNhanKhauSangMHXacNhanHanhDongXoa()[pri:20, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="kiemTraClickNutXoaThongTinNhanKhauSangMHXacNhanHanhDongXoa" duration-ms="1019" started-at="2017-08-28T08:40:26Z" finished-at="2017-08-28T08:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutXoaThongTinNhanKhauSangMHXacNhanHanhDongXoa -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhogiadinh.NhanKhauThemMoiTest@61dc03ce]" name="close" is-config="true" duration-ms="315" started-at="2017-08-28T08:40:27Z" finished-at="2017-08-28T08:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhogiadinh.NhanKhauThemMoiTest -->
+    </test> <!-- QLHoGDTest1 -->
+    <test name="QLHoGDTest2" duration-ms="61269" started-at="2017-08-28T01:40:28Z" finished-at="2017-08-28T01:41:29Z">
+      <class name="quanlyhogiadinh.HoKhauThemMoiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="beforeClass" is-config="true" duration-ms="15426" started-at="2017-08-28T08:40:28Z" finished-at="2017-08-28T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraChucNangNutDong()[pri:0, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraChucNangNutDong" duration-ms="3586" started-at="2017-08-28T08:40:43Z" finished-at="2017-08-28T08:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraChucNangNutDong -->
+        <test-method status="PASS" signature="kiemTraNutTaoMoiHoKhauKhongChoClick()[pri:1, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraNutTaoMoiHoKhauKhongChoClick" duration-ms="1100" started-at="2017-08-28T08:40:47Z" finished-at="2017-08-28T08:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutTaoMoiHoKhauKhongChoClick -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiClickNutLuuKhiChuaChonChuHo()[pri:2, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraThongBaoKhiClickNutLuuKhiChuaChonChuHo" duration-ms="343" started-at="2017-08-28T08:40:48Z" finished-at="2017-08-28T08:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiClickNutLuuKhiChuaChonChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiChonNKLaChuHoCuaHoKhac()[pri:3, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraThongBaoKhiChonNKLaChuHoCuaHoKhac" duration-ms="9997" started-at="2017-08-28T08:40:48Z" finished-at="2017-08-28T08:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiChonNKLaChuHoCuaHoKhac -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiChonNKDangCoQHVoiHoKhacLamChuHo()[pri:4, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraThongBaoKhiChonNKDangCoQHVoiHoKhacLamChuHo" duration-ms="3376" started-at="2017-08-28T08:40:58Z" finished-at="2017-08-28T08:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiChonNKDangCoQHVoiHoKhacLamChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongDiaChiCuaChuHo()[pri:5, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraThongBaoKhiBoTrongDiaChiCuaChuHo" duration-ms="9283" started-at="2017-08-28T08:41:01Z" finished-at="2017-08-28T08:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongDiaChiCuaChuHo -->
+        <test-method status="PASS" signature="themHKVoiNKChuaLamChuHo()[pri:6, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="themHKVoiNKChuaLamChuHo" duration-ms="8183" started-at="2017-08-28T08:41:11Z" finished-at="2017-08-28T08:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themHKVoiNKChuaLamChuHo -->
+        <test-method status="PASS" signature="kiemTraClickNutTaoMoiHoKhauSangMHThemMoiHoKhau()[pri:7, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="kiemTraClickNutTaoMoiHoKhauSangMHThemMoiHoKhau" duration-ms="3089" started-at="2017-08-28T08:41:19Z" finished-at="2017-08-28T08:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutTaoMoiHoKhauSangMHThemMoiHoKhau -->
+        <test-method status="PASS" signature="KiemTraClickNutXemChiTietVaoManHinhXemChiTiet()[pri:8, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="KiemTraClickNutXemChiTietVaoManHinhXemChiTiet" duration-ms="1990" started-at="2017-08-28T08:41:22Z" finished-at="2017-08-28T08:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KiemTraClickNutXemChiTietVaoManHinhXemChiTiet -->
+        <test-method status="PASS" signature="KiemTraThongBaoKhiClickNutXoaHoKhau()[pri:9, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="KiemTraThongBaoKhiClickNutXoaHoKhau" duration-ms="1832" started-at="2017-08-28T08:41:24Z" finished-at="2017-08-28T08:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KiemTraThongBaoKhiClickNutXoaHoKhau -->
+        <test-method status="PASS" signature="KiemTraClickNutSuaHoKhauVaoMHSuaHoKhau()[pri:10, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="KiemTraClickNutSuaHoKhauVaoMHSuaHoKhau" duration-ms="2885" started-at="2017-08-28T08:41:26Z" finished-at="2017-08-28T08:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KiemTraClickNutSuaHoKhauVaoMHSuaHoKhau -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhogiadinh.HoKhauThemMoiTest@26f67b76]" name="close" is-config="true" duration-ms="175" started-at="2017-08-28T08:41:29Z" finished-at="2017-08-28T08:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhogiadinh.HoKhauThemMoiTest -->
+    </test> <!-- QLHoGDTest2 -->
+    <test name="QLHoGDTest3" duration-ms="109807" started-at="2017-08-28T01:41:29Z" finished-at="2017-08-28T01:43:19Z">
+      <class name="quanlyhogiadinh.NKThemVaoHK1Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="beforeClass" is-config="true" duration-ms="10300" started-at="2017-08-28T08:41:29Z" finished-at="2017-08-28T08:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongThongTin()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiBoTrongThongTin" duration-ms="4428" started-at="2017-08-28T08:41:39Z" finished-at="2017-08-28T08:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongThongTin -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiBoTrongNhanKhau()[pri:1, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiBoTrongNhanKhau" duration-ms="5761" started-at="2017-08-28T08:41:44Z" finished-at="2017-08-28T08:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiBoTrongNhanKhau -->
+        <test-method status="PASS" signature="kiemTraMauKhungKhiBoTrongQHVoiChuHo()[pri:2, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraMauKhungKhiBoTrongQHVoiChuHo" duration-ms="6228" started-at="2017-08-28T08:41:49Z" finished-at="2017-08-28T08:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhungKhiBoTrongQHVoiChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiKhongChonQHVoiChuHo()[pri:3, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiKhongChonQHVoiChuHo" duration-ms="3635" started-at="2017-08-28T08:41:56Z" finished-at="2017-08-28T08:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiKhongChonQHVoiChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNKDangLaChuHoCuaHoKhac()[pri:4, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiNKDangLaChuHoCuaHoKhac" duration-ms="10785" started-at="2017-08-28T08:41:59Z" finished-at="2017-08-28T08:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNKDangLaChuHoCuaHoKhac -->
+        <test-method status="PASS" signature="themNKVaoHKKhiDangLaThanhVienCuaHoKhac()[pri:5, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="themNKVaoHKKhiDangLaThanhVienCuaHoKhac" duration-ms="11811" started-at="2017-08-28T08:42:10Z" finished-at="2017-08-28T08:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themNKVaoHKKhiDangLaThanhVienCuaHoKhac -->
+        <test-method status="PASS" signature="themNKVaoHKKhiChuaLaThanhVienCuaHoKhac()[pri:6, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="themNKVaoHKKhiChuaLaThanhVienCuaHoKhac" duration-ms="26891" started-at="2017-08-28T08:42:22Z" finished-at="2017-08-28T08:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themNKVaoHKKhiChuaLaThanhVienCuaHoKhac -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNKDaTonTaiTrongHK()[pri:7, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiNKDaTonTaiTrongHK" duration-ms="10872" started-at="2017-08-28T08:42:49Z" finished-at="2017-08-28T08:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNKDaTonTaiTrongHK -->
+        <test-method status="PASS" signature="kiemTraKhiClickNutSuaNKDangLaChuHoKhongChoPhepSua()[pri:8, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraKhiClickNutSuaNKDangLaChuHoKhongChoPhepSua" duration-ms="644" started-at="2017-08-28T08:43:00Z" finished-at="2017-08-28T08:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraKhiClickNutSuaNKDangLaChuHoKhongChoPhepSua -->
+        <test-method status="PASS" signature="kiemTraKhiClickNutXoaNKDangLaChuHoKhongChoPhepXoa()[pri:9, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraKhiClickNutXoaNKDangLaChuHoKhongChoPhepXoa" duration-ms="596" started-at="2017-08-28T08:43:00Z" finished-at="2017-08-28T08:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraKhiClickNutXoaNKDangLaChuHoKhongChoPhepXoa -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiClickNutSuaNKKhongLaChuHo()[pri:10, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiClickNutSuaNKKhongLaChuHo" duration-ms="785" started-at="2017-08-28T08:43:01Z" finished-at="2017-08-28T08:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiClickNutSuaNKKhongLaChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiClickNutXoaNKKhongLaChuHo()[pri:11, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoKhiClickNutXoaNKKhongLaChuHo" duration-ms="6591" started-at="2017-08-28T08:43:02Z" finished-at="2017-08-28T08:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiClickNutXoaNKKhongLaChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoClickNutLuuKhiDuLieuKhongDoi()[pri:12, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraThongBaoClickNutLuuKhiDuLieuKhongDoi" duration-ms="3808" started-at="2017-08-28T08:43:08Z" finished-at="2017-08-28T08:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoClickNutLuuKhiDuLieuKhongDoi -->
+        <test-method status="PASS" signature="kiemTraClickNutDongMHSuaSangMHQLyHK()[pri:13, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="kiemTraClickNutDongMHSuaSangMHQLyHK" duration-ms="6538" started-at="2017-08-28T08:43:12Z" finished-at="2017-08-28T08:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutDongMHSuaSangMHQLyHK -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK1Test@59e84876]" name="close" is-config="true" duration-ms="127" started-at="2017-08-28T08:43:19Z" finished-at="2017-08-28T08:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhogiadinh.NKThemVaoHK1Test -->
+    </test> <!-- QLHoGDTest3 -->
+    <test name="QLHoGDTest4" duration-ms="52330" started-at="2017-08-28T01:43:19Z" finished-at="2017-08-28T01:44:11Z">
+      <class name="quanlyhogiadinh.NKThemVaoHK2Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK2Test@b97c004]" name="beforeClass" is-config="true" duration-ms="11180" started-at="2017-08-28T08:43:19Z" finished-at="2017-08-28T08:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraNutChonHoKhauKhongCHoCLickKhiNKDangLaChuHo()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK2Test@b97c004]" name="kiemTraNutChonHoKhauKhongCHoCLickKhiNKDangLaChuHo" duration-ms="6219" started-at="2017-08-28T08:43:30Z" finished-at="2017-08-28T08:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutChonHoKhauKhongCHoCLickKhiNKDangLaChuHo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiChuaChonQHVoiChuHo()[pri:1, instance:quanlyhogiadinh.NKThemVaoHK2Test@b97c004]" name="kiemTraThongBaoKhiChuaChonQHVoiChuHo" duration-ms="18286" started-at="2017-08-28T08:43:36Z" finished-at="2017-08-28T08:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiChuaChonQHVoiChuHo -->
+        <test-method status="PASS" signature="themNKvaoHKKhiNKKhongLaChuHo()[pri:2, instance:quanlyhogiadinh.NKThemVaoHK2Test@b97c004]" name="themNKvaoHKKhiNKKhongLaChuHo" duration-ms="16476" started-at="2017-08-28T08:43:54Z" finished-at="2017-08-28T08:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themNKvaoHKKhiNKKhongLaChuHo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhogiadinh.NKThemVaoHK2Test@b97c004]" name="close" is-config="true" duration-ms="167" started-at="2017-08-28T08:44:11Z" finished-at="2017-08-28T08:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhogiadinh.NKThemVaoHK2Test -->
+    </test> <!-- QLHoGDTest4 -->
+    <test name="QLHSSKTest1" duration-ms="65849" started-at="2017-08-28T01:44:11Z" finished-at="2017-08-28T01:45:17Z">
+      <class name="quanlyhososuckhoe.HSSucKhoeTaoLapTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="beforeClass" is-config="true" duration-ms="9972" started-at="2017-08-28T08:44:11Z" finished-at="2017-08-28T08:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraThongBaoClickNutLuuKhiChuaThayDoiThongTin()[pri:0, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraThongBaoClickNutLuuKhiChuaThayDoiThongTin" duration-ms="4209" started-at="2017-08-28T08:44:21Z" finished-at="2017-08-28T08:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoClickNutLuuKhiChuaThayDoiThongTin -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayKhamLonHonNgayHienTai()[pri:1, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraThongBaoKhiNgayKhamLonHonNgayHienTai" duration-ms="6001" started-at="2017-08-28T08:44:25Z" finished-at="2017-08-28T08:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayKhamLonHonNgayHienTai -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayHenTaiKhamNhoHonNgayKham()[pri:2, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraThongBaoKhiNgayHenTaiKhamNhoHonNgayKham" duration-ms="6538" started-at="2017-08-28T08:44:31Z" finished-at="2017-08-28T08:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayHenTaiKhamNhoHonNgayKham -->
+        <test-method status="PASS" signature="kiemTraMauKhungKhiBoTrongTruongBatBuoc()[pri:3, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraMauKhungKhiBoTrongTruongBatBuoc" duration-ms="6011" started-at="2017-08-28T08:44:38Z" finished-at="2017-08-28T08:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhungKhiBoTrongTruongBatBuoc -->
+        <test-method status="PASS" signature="kiemTraNutLuuKhongDuocClickKhiThieuTruongBatBuoc()[pri:4, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraNutLuuKhongDuocClickKhiThieuTruongBatBuoc" duration-ms="76" started-at="2017-08-28T08:44:44Z" finished-at="2017-08-28T08:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutLuuKhongDuocClickKhiThieuTruongBatBuoc -->
+        <test-method status="PASS" signature="lapHSSucKhoeVoiThongTinHopLe()[pri:5, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="lapHSSucKhoeVoiThongTinHopLe" duration-ms="28547" started-at="2017-08-28T08:44:44Z" finished-at="2017-08-28T08:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lapHSSucKhoeVoiThongTinHopLe -->
+        <test-method status="PASS" signature="kiemTraNutXoaSauKhiDaLapHoSo()[pri:6, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraNutXoaSauKhiDaLapHoSo" duration-ms="3707" started-at="2017-08-28T08:45:12Z" finished-at="2017-08-28T08:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutXoaSauKhiDaLapHoSo -->
+        <test-method status="PASS" signature="kiemTraNutDongMHTaoLapHoSo()[pri:7, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="kiemTraNutDongMHTaoLapHoSo" duration-ms="653" started-at="2017-08-28T08:45:16Z" finished-at="2017-08-28T08:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutDongMHTaoLapHoSo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhososuckhoe.HSSucKhoeTaoLapTest@458ad742]" name="close" is-config="true" duration-ms="133" started-at="2017-08-28T08:45:17Z" finished-at="2017-08-28T08:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhososuckhoe.HSSucKhoeTaoLapTest -->
+    </test> <!-- QLHSSKTest1 -->
+    <test name="QLHSSKTest2" duration-ms="99045" started-at="2017-08-28T01:45:17Z" finished-at="2017-08-28T01:46:56Z">
+      <class name="quanlyhososuckhoe.LichSuKCBTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="beforeClass" is-config="true" duration-ms="11420" started-at="2017-08-28T08:45:17Z" finished-at="2017-08-28T08:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraClickNutLuuKhongChoPhepKhiThieuThongTinBatBuoc()[pri:0, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraClickNutLuuKhongChoPhepKhiThieuThongTinBatBuoc" duration-ms="5238" started-at="2017-08-28T08:45:28Z" finished-at="2017-08-28T08:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutLuuKhongChoPhepKhiThieuThongTinBatBuoc -->
+        <test-method status="PASS" signature="kiemTraMauKhungKhiNhapSaiThongTinBatBuoc()[pri:1, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraMauKhungKhiNhapSaiThongTinBatBuoc" duration-ms="1297" started-at="2017-08-28T08:45:34Z" finished-at="2017-08-28T08:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhungKhiNhapSaiThongTinBatBuoc -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayKhamKhongĐungDinhDang()[pri:2, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNgayKhamKhongĐungDinhDang" duration-ms="21" started-at="2017-08-28T08:45:35Z" finished-at="2017-08-28T08:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayKhamKhongĐungDinhDang -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang()[pri:3, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang" duration-ms="23" started-at="2017-08-28T08:45:35Z" finished-at="2017-08-28T08:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayBatDauKhongĐungDinhDang -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang()[pri:4, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang" duration-ms="18" started-at="2017-08-28T08:45:35Z" finished-at="2017-08-28T08:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayKetThucKhongĐungDinhDang -->
+        <test-method status="PASS" signature="themKhiNgayKhamNhoHonNgayBatDau()[pri:5, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="themKhiNgayKhamNhoHonNgayBatDau" duration-ms="1062" started-at="2017-08-28T08:45:35Z" finished-at="2017-08-28T08:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themKhiNgayKhamNhoHonNgayBatDau -->
+        <test-method status="PASS" signature="themKhiNgayBatDaulonHonNgayKetThuc()[pri:6, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="themKhiNgayBatDaulonHonNgayKetThuc" duration-ms="6611" started-at="2017-08-28T08:45:36Z" finished-at="2017-08-28T08:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themKhiNgayBatDaulonHonNgayKetThuc -->
+        <test-method status="PASS" signature="themKhiNgayTaiKhamNhoHonNgayKham()[pri:7, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="themKhiNgayTaiKhamNhoHonNgayKham" duration-ms="13237" started-at="2017-08-28T08:45:43Z" finished-at="2017-08-28T08:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themKhiNgayTaiKhamNhoHonNgayKham -->
+        <test-method status="PASS" signature="themVoiDieuKienHopLe()[pri:8, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="themVoiDieuKienHopLe" duration-ms="18745" started-at="2017-08-28T08:45:56Z" finished-at="2017-08-28T08:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themVoiDieuKienHopLe -->
+        <test-method status="PASS" signature="kiemTraClickNutSuaSangMHCapNhatThongTinKCB()[pri:9, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraClickNutSuaSangMHCapNhatThongTinKCB" duration-ms="931" started-at="2017-08-28T08:46:15Z" finished-at="2017-08-28T08:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutSuaSangMHCapNhatThongTinKCB -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapTenDichVuKhongNhapKetQuaMHCapNhatThongTinKCB()[pri:10, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNhapTenDichVuKhongNhapKetQuaMHCapNhatThongTinKCB" duration-ms="5530" started-at="2017-08-28T08:46:16Z" finished-at="2017-08-28T08:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapTenDichVuKhongNhapKetQuaMHCapNhatThongTinKCB -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapKetQuaKhongNhapTenDichVuMHCapNhatThongTinKCB()[pri:11, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNhapKetQuaKhongNhapTenDichVuMHCapNhatThongTinKCB" duration-ms="6472" started-at="2017-08-28T08:46:21Z" finished-at="2017-08-28T08:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapKetQuaKhongNhapTenDichVuMHCapNhatThongTinKCB -->
+        <test-method status="PASS" signature="kiemTraTaoDongMoiKhiNhapDayDuTenDichVuVaKetQua()[pri:12, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraTaoDongMoiKhiNhapDayDuTenDichVuVaKetQua" duration-ms="6446" started-at="2017-08-28T08:46:28Z" finished-at="2017-08-28T08:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraTaoDongMoiKhiNhapDayDuTenDichVuVaKetQua -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapTenThuocKhongNhapSoLuongMHCapNhatThongTinKCB()[pri:13, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNhapTenThuocKhongNhapSoLuongMHCapNhatThongTinKCB" duration-ms="7489" started-at="2017-08-28T08:46:34Z" finished-at="2017-08-28T08:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapTenThuocKhongNhapSoLuongMHCapNhatThongTinKCB -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapSoLuongKiTuKhacSo()[pri:14, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNhapSoLuongKiTuKhacSo" duration-ms="6429" started-at="2017-08-28T08:46:42Z" finished-at="2017-08-28T08:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapSoLuongKiTuKhacSo -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapSoLuongKhongNhapTenThuocgMHCapNhatThongTinKCB()[pri:15, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraThongBaoKhiNhapSoLuongKhongNhapTenThuocgMHCapNhatThongTinKCB" duration-ms="362" started-at="2017-08-28T08:46:48Z" finished-at="2017-08-28T08:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapSoLuongKhongNhapTenThuocgMHCapNhatThongTinKCB -->
+        <test-method status="PASS" signature="kiemTraClickNutXoaThongTinKhamChuaBenhSangMHXacNhanHanhDongXoa()[pri:16, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="kiemTraClickNutXoaThongTinKhamChuaBenhSangMHXacNhanHanhDongXoa" duration-ms="7557" started-at="2017-08-28T08:46:48Z" finished-at="2017-08-28T08:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraClickNutXoaThongTinKhamChuaBenhSangMHXacNhanHanhDongXoa -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhososuckhoe.LichSuKCBTest@6a2bcfcb]" name="close" is-config="true" duration-ms="141" started-at="2017-08-28T08:46:56Z" finished-at="2017-08-28T08:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhososuckhoe.LichSuKCBTest -->
+    </test> <!-- QLHSSKTest2 -->
+    <test name="QLHSSKTest3" duration-ms="63278" started-at="2017-08-28T01:46:56Z" finished-at="2017-08-28T01:47:59Z">
+      <class name="quanlyhososuckhoe.TiemChungNgoaiCTTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="beforeClass" is-config="true" duration-ms="11331" started-at="2017-08-28T08:46:56Z" finished-at="2017-08-28T08:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="kiemTraNutLuuKhongChoPhepKhiBoTrongTruongBatBuoc()[pri:0, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="kiemTraNutLuuKhongChoPhepKhiBoTrongTruongBatBuoc" duration-ms="8140" started-at="2017-08-28T08:47:07Z" finished-at="2017-08-28T08:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraNutLuuKhongChoPhepKhiBoTrongTruongBatBuoc -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNgayHenTiemNhoHonNgayChungNgua()[pri:1, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="kiemTraThongBaoKhiNgayHenTiemNhoHonNgayChungNgua" duration-ms="3827" started-at="2017-08-28T08:47:16Z" finished-at="2017-08-28T08:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNgayHenTiemNhoHonNgayChungNgua -->
+        <test-method status="PASS" signature="kiemTraMauKhiCacTruowngBatBuocKhongHopLe()[pri:2, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="kiemTraMauKhiCacTruowngBatBuocKhongHopLe" duration-ms="6096" started-at="2017-08-28T08:47:19Z" finished-at="2017-08-28T08:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraMauKhiCacTruowngBatBuocKhongHopLe -->
+        <test-method status="PASS" signature="themKhiNhapDayDuThongTin()[pri:3, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="themKhiNhapDayDuThongTin" duration-ms="16736" started-at="2017-08-28T08:47:26Z" finished-at="2017-08-28T08:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themKhiNhapDayDuThongTin -->
+        <test-method status="PASS" signature="kiemTraThongBaoKhiNhapThongTinTruocDoDaCo()[pri:4, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="kiemTraThongBaoKhiNhapThongTinTruocDoDaCo" duration-ms="17018" started-at="2017-08-28T08:47:42Z" finished-at="2017-08-28T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraThongBaoKhiNhapThongTinTruocDoDaCo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:quanlyhososuckhoe.TiemChungNgoaiCTTest@6d8a00e3]" name="close" is-config="true" duration-ms="128" started-at="2017-08-28T08:47:59Z" finished-at="2017-08-28T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- quanlyhososuckhoe.TiemChungNgoaiCTTest -->
+    </test> <!-- QLHSSKTest3 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
